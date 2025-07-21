@@ -84,11 +84,22 @@
       background-color: #0056b3;
     }
     img.bienvenida {
+      max-width: 600px;
       width: 100%;
-      max-height: 300px;
+      height: auto;
       object-fit: cover;
       border-radius: 8px;
       margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Responsivo para pantallas pequeñas */
+    @media (max-width: 640px) {
+      img.bienvenida {
+        max-width: 100%;
+      }
     }
   </style>
 </head>
