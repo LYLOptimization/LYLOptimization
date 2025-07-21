@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>LLOptimization - Software & Hardware Optimization</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0e141b]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em]">LLOptimization</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Inicio</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">¿Quiénes Somos?</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">¿Qué Hacemos?</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">¿Cómo Funciona?</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Próximamente</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Contacto</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#197fe5] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Solicitá un diagnóstico gratuito</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPbXkCSnXSOeJPj1g-MVHYmy8_EgM_nGgA9Fe0-vo1FCaSy4dHgSf6zPkZ2TSUt03jzrxx23GJm3DeFhW3-uVc3DkJXx3xTyANycfcxuGHGknnkE_wUC6RMv53Q69Hq1ev7-4lk10f0nwL0an8HPEvk__ImrmDsE-QciuFneDIiRYt6nFdr3vtoduXosLf_JygcrX1vjExbbyY8RtOrskMptIJm1SC1darjb57urZXr3tJYCzfSHV1d5WW0mQ_I80gPzq-wKfcH_E");'
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Alargamos la vida útil de tus equipos
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Mejoramos el rendimiento de computadoras antiguas sin necesidad de nuevo hardware. Nuestros servicios están diseñados para entornos empresariales, educativos
+                      y administrativos.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#197fe5] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Solicitá un diagnóstico gratuito</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">¿Quiénes Somos?</h2>
+            <p class="text-[#0e141b] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Fundado por un estudiante de Planificación Logística y un estudiante de Ingeniería de Sistemas, nuestro equipo combina experiencia en gestión de recursos, eficiencia
+              de procesos, optimización de software y mantenimiento de TI. Nuestro objetivo es proporcionar soluciones accesibles, sostenibles y efectivas para computadoras
+              antiguas con bajo rendimiento.
+            </p>
+            <h2 class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">¿Qué Hacemos?</h2>
+            <p class="text-[#0e141b] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Ofrecemos servicios integrales de optimización de software y hardware ligero, incluyendo la mejora de los tiempos de inicio del sistema, la limpieza de archivos
+              temporales, la eliminación de bloatware y la reconfiguración de procesos en segundo plano. Los beneficios incluyen ahorros de costos en reemplazos, reducción del
+              consumo de energía y mejora de la estabilidad operativa.
+            </p>
+            <h2 class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">¿Cómo Funciona?</h2>
+            <p class="text-[#0e141b] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Nuestro proceso incluye un diagnóstico gratuito, un plan de optimización personalizado, la implementación de mejoras seguras y reversibles, y un informe final de
+              rendimiento. Ofrecemos soporte post-servicio opcional y podemos trabajar en sitio o de forma remota.
+            </p>
+            <h2 class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Próximamente: Optimización para Videojuegos</h2>
+            <p class="text-[#0e141b] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Estamos desarrollando un servicio para optimizar el rendimiento de juegos en computadoras de gama baja o antiguas, dirigido a espacios educativos y empresas de
+              formación técnica.
+            </p>
+            <h2 class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Contacto</h2>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-base font-medium leading-normal pb-2">Nombre</p>
+                <input
+                  placeholder="Ingresa tu nombre"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-14 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-base font-medium leading-normal pb-2">Empresa/Institución</p>
+                <input
+                  placeholder="Ingresa el nombre de tu empresa o institución"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-14 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-base font-medium leading-normal pb-2">Industria</p>
+                <input
+                  placeholder="Selecciona tu industria"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-14 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-base font-medium leading-normal pb-2">Número Estimado de Dispositivos</p>
+                <input
+                  placeholder="Ingresa el número estimado de dispositivos"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-14 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-base font-medium leading-normal pb-2">Información de Contacto</p>
+                <input
+                  placeholder="Ingresa tu correo electrónico o número de teléfono"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-14 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-base font-medium leading-normal pb-2">Comentarios</p>
+                <textarea
+                  placeholder="Ingresa cualquier comentario adicional"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none min-h-36 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#197fe5] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Enviar</span>
+              </button>
+            </div>
+            <p class="text-[#4e7397] text-sm font-normal leading-normal pb-3 pt-1 px-4">Para consultas, envíanos un correo electrónico a support@lloptimization.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
