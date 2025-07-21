@@ -83,36 +83,12 @@
     button:hover {
       background-color: #0056b3;
     }
-    @media (max-width: 600px) {
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px 15px;
-      }
-      nav {
-        margin-top: 10px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-      }
-      nav a {
-        flex: 1 1 45%;
-        margin: 5px 0;
-        text-align: center;
-      }
-      .cta-button {
-        flex: 1 1 100%;
-      }
-      section {
-        padding: 40px 15px;
-      }
-      .logo img {
-        height: 25px;
-      }
-      button, input, textarea {
-        font-size: 16px;
-      }
+    img.bienvenida {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -134,13 +110,10 @@
     </nav>
   </header>
 
-  <div style="max-width: 900px; margin: 20px auto;">
-    <img src="banner-hardware.png" alt="Banner Hardware" style="width: 100%; border-radius: 8px;">
-  </div>
-
   <section id="inicio">
     <h1>Bienvenido a LLOptimization</h1>
     <p>Alargamos la vida útil de tu parque informático optimizando software y hardware.</p>
+    <img src="banner-hardware.png" alt="Bienvenida" class="bienvenida">
   </section>
 
   <section id="quienes">
